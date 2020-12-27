@@ -1,0 +1,16 @@
+<h3>
+    You Selected {{departmentId}}
+    
+</h3>
+<p>
+    <button (click)="showOverview()">Overview</button>
+    <button (click)="showContacts()">Contact</button>
+</p>
+<router-outlet></router-outlet>
+<p>
+<Button (click)="goPrevious()">Previous</Button>
+    <Button (click)="goNext()">Next</Button>
+</p>
+<div>
+    <button (click)="gotoDepartments()">Back</button>
+</div>
